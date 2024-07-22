@@ -1,8 +1,6 @@
-import React from 'react';
-
 export default function Banner() {
     return (
-        <div className="flex flex-col justify-center items-center h-screen bg-gray-100">
+        <div className="flex flex-col justify-center items-center p-12 py-20">
             <img src="src/assets/img/logo_preta.svg" alt="Logo preta" className="h-16 w-auto" />
             
             <div className="flex justify-center items-center">
@@ -32,6 +30,12 @@ export default function Banner() {
             <div className="flex flex-row space-x-4">
                 <button className="rounded-full bg-[#12D03C] p-4 px-12 transition duration-300 ease-in-out hover:bg-[#10B832]">Começar já</button>
                 <button className="rounded-full border border-black p-4 px-12 transition duration-300 ease-in-out hover:bg-black hover:text-white">Ver demo</button>
+            </div>
+
+            <div className="flex flex-row items-center p-12 space-x-8">
+                <img src="src/assets/img/vendas.webp" alt="vendas" className='h-48'/>
+                <img src="src/assets/img/panel.webp" alt="painel" className='h-96'/>
+                <img src="src/assets/img/loja.webp" alt="loja" className='h-64'/>
             </div>
         </div>
     );
