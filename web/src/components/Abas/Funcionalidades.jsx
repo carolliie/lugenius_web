@@ -5,8 +5,8 @@ import Sobre from './Sobre';
 export default function Funcionalidades() {
     return (
         <div className="flex flex-col items-center justify-between space-y-8">
-            <div className="flex flex-col lg:flex-row items-center justify-center w-3/5 mb-20 space-y-8 lg:space-y-0 lg:space-x-36">
-                <img src="src/assets/img/icone1.svg" alt="laptop" className="h-80" />
+            <div className="flex flex-col lg:flex-row items-center justify-center w-3/5 mb-20 space-y-8 lg:space-y-0 lg:space-x-36 max-[640px]:px-6 max-sm:mb-4">
+                <img src="src/assets/img/icone1.svg" alt="laptop" className="h-80 max-sm:mx-auto max-sm:h-56" />
                 <div className="w-full lg:w-1/2 text-center lg:text-left max-[640px]:text-start">
                     <h2 className="text-3xl font-bold mb-4 max-[640px]:text-lg">Criação fácil, intuitiva e sem complicações</h2>
                     <p className="text-gray-600 max-[640px]:text-sm">
@@ -16,8 +16,8 @@ export default function Funcionalidades() {
                 </div>
             </div>
 
-            <div className="flex flex-col lg:flex-row items-center justify-center w-3/5 mb-20 space-y-8 lg:space-y-0 lg:space-x-36">
-                <img src="src/assets/img/icone2.svg" alt="laptop" className="h-80 lg:hidden" />
+            <div className="flex flex-col lg:flex-row items-center justify-center w-3/5 mb-20 space-y-8 lg:space-y-0 lg:space-x-36 max-[640px]:px-6 max-sm:mb-4">
+                <img src="src/assets/img/icone2.svg" alt="laptop" className="h-80 max-sm:mx-auto max-sm:h-56 lg:hidden" />
                 <div className="w-full lg:w-1/2 text-center lg:text-left lg:order-first max-[640px]:text-start">
                     <h2 className="text-3xl font-bold mb-4 max-[640px]:text-lg">Diversas opções para receber pagamentos</h2>
                     <p className="text-gray-600 max-[640px]:text-sm">
@@ -25,13 +25,13 @@ export default function Funcionalidades() {
                         Essa variedade de opções aumenta suas chances de conversão, pois atende às preferências de pagamento dos seus clientes. Com a integração simples e rápida desses métodos, <strong>você oferece uma experiência de compra segura e eficiente</strong>, essencial para conquistar e fidelizar sua clientela. Simplifique o processo de pagamento e aumente suas vendas com nossa solução abrangente de e-commerce.
                     </p>
                 </div>
-                <img src="src/assets/img/icone2.svg" alt="laptop" className="h-80 max-[640px]:hidden" />
+                <img src="src/assets/img/icone2.svg" alt="laptop" className="h-80 max-sm:mx-auto max-sm:h-56 max-[640px]:hidden" />
             </div>
 
-            <div className="flex flex-col lg:flex-row items-center justify-center w-3/5 mb-20 space-y-8 lg:space-y-0 lg:space-x-36">
-                <img src="src/assets/img/icone3.svg" alt="laptop" className="h-80" />
+            <div className="flex flex-col lg:flex-row items-center justify-center w-3/5 mb-20 space-y-8 lg:space-y-0 lg:space-x-36 max-[640px]:px-6 max-sm:mb-4">
+                <img src="src/assets/img/icone3.svg" alt="laptop" className="h-80 max-sm:mx-auto max-sm:h-56" />
                 <div className="w-full lg:w-1/2 text-center lg:text-left max-[640px]:text-start">
-                    <h2 className="text-3xl font-bold mb-4 max-[640px]:text-lgv">Cálculo de envio automático</h2>
+                    <h2 className="text-3xl font-bold mb-4 max-[640px]:text-lg">Cálculo de envio automático</h2>
                     <p className="text-gray-600 max-[640px]:text-sm">
                         Facilite a logística do seu e-commerce com um sistema de cálculo de envio automatizado. Calculamos automaticamente os custos de envio com base no peso, dimensões e destino dos produtos, oferecendo aos seus clientes uma <strong>estimativa precisa e imediata dos custos de entrega.</strong>
                         Essa funcionalidade elimina a necessidade de cálculos manuais, <strong>reduzindo erros</strong> e garantindo que seus clientes tenham uma experiência de compra transparente e sem surpresas. Ao fornecer informações claras e precisas sobre o frete, você melhora a confiança do cliente e aumenta as chances de conversão. Simplifique a gestão de envios e ofereça um serviço eficiente e profissional com nossa solução de e-commerce.
@@ -39,20 +39,20 @@ export default function Funcionalidades() {
                 </div>
             </div>
 
-            <div className="flex flex-col lg:flex-row items-center justify-center w-3/5 mb-20 space-y-8 lg:space-y-0 lg:space-x-36">
+            <div className="flex flex-col lg:flex-row items-center justify-center w-3/5 mb-20 space-y-8 lg:space-y-0 lg:space-x-36 max-[640px]:px-6 max-sm:mb-4">
                 <div className="w-full lg:w-1/2 text-center lg:text-left lg:order-first max-[640px]:text-start">
-                    <img src="src/assets/img/icone4.svg" alt="laptop" className="h-80 lg:hidden" />
+                    <img src="src/assets/img/icone4.svg" alt="laptop" className="h-80 max-sm:mx-auto max-sm:h-56 lg:hidden" />
                     <h2 className="text-3xl font-bold mb-4 max-[640px]:text-lg">Relatório de vendas detalhados</h2>
                     <p className="text-gray-600 max-[640px]:text-sm">
                         Mantenha-se informado e <strong>tome decisões estratégicas</strong> com nossos relatórios de vendas detalhados. Nossa plataforma oferece análises abrangentes do desempenho do seu e-commerce, permitindo que você acompanhe as vendas, identifique tendências e entenda o comportamento dos clientes.
                         Com gráficos intuitivos e dados precisos, você pode facilmente monitorar o progresso do seu negócio, ajustar suas estratégias e maximizar suas oportunidades de crescimento. Os relatórios incluem informações sobre produtos mais vendidos, receita gerada, e padrões de compra, fornecendo insights valiosos para aprimorar suas operações e campanhas de marketing. <strong>Transforme dados em ações concretas</strong> e impulsione o sucesso do seu e-commerce com nossa solução.
                     </p>
                 </div>
-                <img src="src/assets/img/icone4.svg" alt="laptop" className="h-80 max-[640px]:hidden" />
+                <img src="src/assets/img/icone4.svg" alt="laptop" className="h-80 max-sm:mx-auto max-sm:h-56 max-[640px]:hidden" />
             </div>
 
-            <div className="flex flex-col lg:flex-row items-center justify-center w-3/5 mb-20 space-y-8 lg:space-y-0 lg:space-x-36">
-                <img src="src/assets/img/icone5.svg" alt="laptop" className="h-80" />
+            <div className="flex flex-col lg:flex-row items-center justify-center w-3/5 mb-20 space-y-8 lg:space-y-0 lg:space-x-36 max-[640px]:px-6 max-sm:mb-4">
+                <img src="src/assets/img/icone5.svg" alt="laptop" className="h-80 max-sm:mx-auto max-sm:h-56" />
                 <div className="w-full lg:w-1/2 text-center lg:text-left max-[640px]:text-start">
                     <h2 className="text-3xl font-bold mb-4 max-[640px]:text-lg">Promoções e cupons de desconto</h2>
                     <p className="text-gray-600 max-[640px]:text-sm">
@@ -62,9 +62,9 @@ export default function Funcionalidades() {
                 </div>
             </div>
 
-            <div className="flex flex-col lg:flex-row items-center justify-center w-3/5 mb-20 space-y-8 lg:space-y-0 lg:space-x-36">
+            <div className="flex flex-col lg:flex-row items-center justify-center w-3/5 mb-20 space-y-8 lg:space-y-0 lg:space-x-36 max-[640px]:px-6 max-sm:mb-4">
                 <div className="w-full lg:w-1/2 text-center lg:text-left lg:order-first max-[640px]:text-start">
-                    <img src="src/assets/img/icone6.svg" alt="laptop" className="h-80 lg:hidden" />
+                    <img src="src/assets/img/icone6.svg" alt="laptop" className="h-80 max-sm:mx-auto max-sm:h-56 lg:hidden" />
                     <h2 className="text-3xl font-bold mb-4 max-[640px]:text-lg">Gestão completa do seu E-commerce</h2>
                     <p className="text-gray-600 max-[640px]:text-sm">
                         Simplifique a administração do seu negócio com uma solução de gestão completa. <strong>lntegramos todas as ferramentas essenciais para gerenciar vendas, estoque e contas de clientes em um único lugar.</strong> Controle suas operações de maneira eficiente, economizando tempo e reduzindo a complexidade da gestão do seu loja on-line.
@@ -72,11 +72,11 @@ export default function Funcionalidades() {
                         Nossa solução oferece tudo o que você precisa para operar seu e-commerce de forma integrada e eficiente, permitindo que você se concentre no crescimento do seu negócio.
                     </p>
                 </div>
-                <img src="src/assets/img/icone6.svg" alt="laptop" className="h-80 max-[640px]:hidden" />
+                <img src="src/assets/img/icone6.svg" alt="laptop" className="h-80 max-sm:mx-auto max-sm:h-56 max-[640px]:hidden" />
             </div>
 
-            <div className="flex flex-col lg:flex-row items-center justify-center w-3/5 space-y-8 lg:space-y-0 lg:space-x-36">
-                <img src="src/assets/img/icone7.svg" alt="laptop" className="h-80" />
+            <div className="flex flex-col lg:flex-row items-center justify-center w-3/5 space-y-8 lg:space-y-0 lg:space-x-36 max-[640px]:px-6 max-sm:mb-4">
+                <img src="src/assets/img/icone7.svg" alt="laptop" className="h-80 max-sm:mx-auto max-sm:h-56" />
                 <div className="w-full lg:w-1/2 text-center lg:text-left max-[640px]:text-start">
                     <h2 className="text-3xl font-bold mb-4 max-[640px]:text-lg">Aplicativo no celular para gerenciamento</h2>
                     <p className="text-gray-600 max-[640px]:text-sm">
@@ -87,18 +87,16 @@ export default function Funcionalidades() {
                 </div>
             </div>
 
-
-
-            <div>
+            <div className='w-full'>
                 <div className="flex flex-col items-center justify-center min-h-screen w-full p-20 bg-[#E7FAEA] mt-20">
-                    <h1 className="text-5xl font-bold mb-5">Vídeos e Tutoriais</h1>
-                    <p className="text-base text-center w-1/2">
+                    <h1 className="text-5xl font-bold mb-5 max-[640px]:text-3xl">Vídeos e Tutoriais</h1>
+                    <p className="text-base text-center w-1/2 max-[640px]:text-xs max-[640px]:w-full max-[640px]:px-16">
                         Deseja entender melhor? Confira nossos vídeos sobre a solução e tutoriais que mostram como
                         configurar e usar nossa plataforma de e-commerce. Desde a criação do site até a gestão de vendas, veja como é fácil e rápido dominar todas as funcionalidades e tirar o máximo proveito da nossa
                         solução. Além disso, respondemos às dúvidas mais frequentes para garantir que você tenha todas
                         as informações necessárias.
                     </p>
-                    <div className="grid grid-cols-3 gap-20 p-20">
+                    <div className="grid grid-cols-3 gap-20 p-20 max-[640px]:flex max-[640px]:flex-col">
                         <YoutubeEmbed embedId="RY0tUGKtr_s" />
                         <YoutubeEmbed embedId="RY0tUGKtr_s" />
                         <YoutubeEmbed embedId="RY0tUGKtr_s" />

@@ -1,12 +1,12 @@
 export default function Sobre() {
     return (
-        <div className="flex flex-col justify-center items-center mx-auto">
+        <div className="flex flex-col justify-center items-center mx-auto max-sm:px-10">
             <div className="text-center w-3/5 ">
-                <h1 className="text-4xl font-bold mb-5">Sobre nós</h1>
-                <p className="mb-10">A Lugenius é uma empresa dedicada à produção de tecnologia proprietária para diversas empresas, focando em integrações, automações e inovação no mercado. Atuamos como facilitadores de processos, simplificando
+                <h1 className="text-4xl font-bold mb-5 max-[640px]:text-3xl">Sobre nós</h1>
+                <p className="mb-10 max-sm:text-sm">A Lugenius é uma empresa dedicada à produção de tecnologia proprietária para diversas empresas, focando em integrações, automações e inovação no mercado. Atuamos como facilitadores de processos, simplificando
                     e aprimorando as operações dos nossos clientes para que possam alcançar seus objetivos com eficiência.
                 </p>
-                <p>Nossos pilares fundamentais são Inovação, Integração e Automação, e estamos comprometidos em criar
+                <p className="max-sm:text-sm">Nossos pilares fundamentais são Inovação, Integração e Automação, e estamos comprometidos em criar
                     harmonia entre tecnologia e negócios. Nossa missão é garantir que nossos parceiros se mantenham na
                     liderança digital, competindo nos seus mercados com soluções inovadoras e de alta qualidade.
                 </p>
@@ -19,7 +19,7 @@ export default function Sobre() {
                 <a href="https://kbeauty.com" target="_blank" rel="noopener noreferrer">
                     <img src="src/assets/img/logos/K.BEAUTY.svg" alt="K.BEAUTY" className="w-26 h-26 mx-auto" />
                 </a>
-                <a href="https://oboticiario.com" target="_blank" rel="noopener noreferrer">
+                <a target="_blank" rel="noopener noreferrer">
                     <img src="src/assets/img/logos/OBOTICARIO.svg" alt="OBOTICARIO" className="w-26 h-26 mx-auto" />
                 </a>
                 <a href="https://barovi.com" target="_blank" rel="noopener noreferrer">
@@ -37,7 +37,7 @@ export default function Sobre() {
                 <a href="https://leoesantos.com" target="_blank" rel="noopener noreferrer">
                     <img src="src/assets/img/logos/LEO&SANTOS.svg" alt="LEO&SANTOS" className="w-26 h-26 mx-auto" />
                 </a>
-                <a href="https://mmmaster.com" target="_blank" rel="noopener noreferrer">
+                <a target="_blank" rel="noopener noreferrer">
                     <img src="src/assets/img/logos/MM_MASTER.svg" alt="MM_MASTER" className="w-26 h-26 mx-auto" />
                 </a>
                 <a href="https://tapajos.com" target="_blank" rel="noopener noreferrer">
