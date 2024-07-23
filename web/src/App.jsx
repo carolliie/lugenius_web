@@ -2,6 +2,7 @@ import './App.css'
 import Header from './components/Header'
 import Banner from './components/Banner'
 import Abas from './components/Abas'
+import Footer from './components/Footer'
 
 function App() {
 
@@ -10,6 +11,7 @@ function App() {
       <Header/>
       <Banner/>
       <Abas/>
+      <Footer/>
     </>
   )
 }

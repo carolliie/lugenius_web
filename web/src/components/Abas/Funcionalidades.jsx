@@ -1,5 +1,6 @@
 import YoutubeEmbed from './YoutubeEmbed';
 import Ajuda from './Ajuda';
+import Sobre from './Sobre';
 
 export default function Funcionalidades() {
     return (
@@ -71,7 +72,7 @@ export default function Funcionalidades() {
                 <img src="src/assets/img/icone6.svg" alt="laptop" className="h-80 mb-4" />
             </div>
 
-            <div className="flex items-center justify-center w-3/5 space-x-36 space-y-20 mb-20">
+            <div className="flex items-center justify-center w-3/5 space-x-36 space-y-20">
                 <img src="src/assets/img/icone7.svg" alt="laptop" className="h-80 mb-4" />
                 <div className="w-1/2">
                     <h2 className="text-start text-3xl font-bold mb-4">Aplicativo no celular para gerenciamento</h2>
@@ -85,7 +86,7 @@ export default function Funcionalidades() {
             </div>
 
             <div>
-                <div className="flex flex-col items-center justify-center min-h-screen w-full p-20 bg-[#E7FAEA]">
+                <div className="flex flex-col items-center justify-center min-h-screen w-full p-20 bg-[#E7FAEA] mt-20">
                     <h1 className="text-5xl font-bold mb-5">Vídeos e Tutoriais</h1>
                     <p className="text-base text-center w-1/2">
                         Deseja entender melhor? Confira nossos vídeos sobre a solução e tutoriais que mostram como
@@ -93,7 +94,7 @@ export default function Funcionalidades() {
                         solução. Além disso, respondemos às dúvidas mais frequentes para garantir que você tenha todas
                         as informações necessárias.
                     </p>
-                    <div className="grid grid-cols-3 gap-4 p-20">
+                    <div className="grid grid-cols-3 gap-20 p-20">
                         <YoutubeEmbed embedId="RY0tUGKtr_s" />
                         <YoutubeEmbed embedId="RY0tUGKtr_s" />
                         <YoutubeEmbed embedId="RY0tUGKtr_s" />
@@ -105,6 +106,7 @@ export default function Funcionalidades() {
             </div>
 
             <Ajuda/>
+            <Sobre/>
         </div>
     );
 }

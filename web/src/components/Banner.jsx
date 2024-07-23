@@ -1,7 +1,7 @@
 export default function Banner() {
     return (
         <div className="flex flex-col justify-center items-center p-12 py-20">
-            <img src="src/assets/img/logo_preta.svg" alt="Logo preta" className="h-16 w-auto" />
+            <img src="src/assets/img/logos/logo_preta.svg" alt="Logo preta" className="h-16 w-auto" />
             
             <div className="flex justify-center items-center">
                 <h1 className="font-bold text-center text-5xl mt-2 w-2/3">Sua loja on-line pronta para vender</h1>
@@ -28,8 +28,8 @@ export default function Banner() {
             </div>
 
             <div className="flex flex-row space-x-4">
-                <button className="rounded-full bg-[#12D03C] p-4 px-12 transition duration-300 ease-in-out hover:bg-[#10B832]">Começar já</button>
-                <button className="rounded-full border border-black p-4 px-12 transition duration-300 ease-in-out hover:bg-black hover:text-white">Ver demo</button>
+                <a href="https://lugenius.com/produto/ecommerce-standard/" className="rounded-full bg-[#12D03C] p-4 px-12 transition duration-300 ease-in-out hover:bg-[#10B832]">Começar já</a>
+                <a href="https://loja.lugenius.com/" className="rounded-full border border-black p-4 px-12 transition duration-300 ease-in-out hover:bg-black hover:text-white">Ver demo</a>
             </div>
 
             <div className="flex flex-row items-center p-12 space-x-8">
