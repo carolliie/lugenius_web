@@ -1,6 +1,9 @@
+import YoutubeEmbed from './YoutubeEmbed';
+import Ajuda from './Ajuda';
+
 export default function Funcionalidades() {
     return (
-        <div className="container flex flex-col items-center justify-between space-y-8">
+        <div className="flex flex-col items-center justify-between space-y-8">
             <div className="flex items-center justify-center w-3/5 space-x-36 space-y-20 mb-20">
                 <img src="src/assets/img/icone1.svg" alt="laptop" className="h-80 mb-4" />
                 <div className="w-1/2">
@@ -78,7 +81,30 @@ export default function Funcionalidades() {
                         Dessa forma, <strong>você nunca perde o controle do seu negócio</strong>, podendo gerenciar tudo de maneira eficiente e conveniente, onde quer que esteja. Maximize sua produtividade e mantenha-se conectado a sua loja com nosso aplicativo de gestão.
                     </p>
                 </div>
+
             </div>
+
+            <div>
+                <div className="flex flex-col items-center justify-center min-h-screen w-full p-20 bg-[#E7FAEA]">
+                    <h1 className="text-5xl font-bold mb-5">Vídeos e Tutoriais</h1>
+                    <p className="text-base text-center w-1/2">
+                        Deseja entender melhor? Confira nossos vídeos sobre a solução e tutoriais que mostram como
+                        configurar e usar nossa plataforma de e-commerce. Desde a criação do site até a gestão de vendas, veja como é fácil e rápido dominar todas as funcionalidades e tirar o máximo proveito da nossa
+                        solução. Além disso, respondemos às dúvidas mais frequentes para garantir que você tenha todas
+                        as informações necessárias.
+                    </p>
+                    <div className="grid grid-cols-3 gap-4 p-20">
+                        <YoutubeEmbed embedId="RY0tUGKtr_s" />
+                        <YoutubeEmbed embedId="RY0tUGKtr_s" />
+                        <YoutubeEmbed embedId="RY0tUGKtr_s" />
+                        <YoutubeEmbed embedId="RY0tUGKtr_s" />
+                        <YoutubeEmbed embedId="RY0tUGKtr_s" />
+                        <YoutubeEmbed embedId="RY0tUGKtr_s" />
+                    </div>
+                </div>
+            </div>
+
+            <Ajuda/>
         </div>
     );
 }
