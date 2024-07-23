@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import Funcionalidades from './Abas/Funcionalidades';
 import FaQ from './Abas/FAQ';
+import Tutoriais from './Abas/Tutoriais';
 
 export default function Abas() {
     const [activeTab, setActiveTab] = useState('funcionalidade');
@@ -52,6 +53,7 @@ export default function Abas() {
             <div id="flex flex-row default-styled-tab-content">
                 <div className={`p-4 ${activeTab === 'funcionalidade' ? 'block' : 'hidden'}`} id="styled-funcionalidade" role="tabpanel" aria-labelledby="funcionalidade-tab">
                     <Funcionalidades/>
+                    <Tutoriais/>
                 </div>
                 <div className={`p-4 ${activeTab === 'avaliacoes' ? 'block' : 'hidden'}`} id="styled-avaliacoes" role="tabpanel" aria-labelledby="avaliacoes-tab">
                     <p className="text-sm text-gray-500">Este é o conteúdo da aba <strong className="font-medium text-gray-800">Avaliações</strong>.</p>
