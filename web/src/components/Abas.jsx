@@ -8,23 +8,10 @@ export default function Abas() {
 
     return (
         <div className="flex flex-col items-center justify-center text-center">
-            <div className="sm:hidden">
-                <label htmlFor="tabs" className="sr-only">Selecione sua aba</label>
-                <select
-                    id="tabs"
-                    className="border border-gray-300 text-gray-900 text-sm rounded-lg block w-full p-2.5 transition duration-150 ease-in-out"
-                    value={activeTab}
-                    onChange={(e) => setActiveTab(e.target.value)}
-                >
-                    <option value="funcionalidade">Funcionalidade</option>
-                    <option value="avaliacoes">Avaliações</option>
-                    <option value="faq">FAQ</option>
-                </select>
-            </div>
-            <ul className="hidden text-sm font-medium text-center text-black rounded-lg shadow sm:flex">
+            <ul className="text-sm font-medium text-center text-black rounded-lg shadow sm:flex">
                 <li className="w-56">
                     <button
-                        className={`inline-block w-full p-4 text-black ${activeTab === 'funcionalidade' ? 'bg-[#80EEB5] transition duration-150 ease-in-out' : 'bg-white'} border-r border-gray-200 rounded-s-lg hover:bg-[#80EEB5] transition duration-150 ease-in-out`}
+                        className={`inline-block w-full p-4 text-black ${activeTab === 'funcionalidade' ? 'bg-[#80EEB5] transition duration-150 ease-in-out' : 'bg-white'} border-r border-gray-200 rounded-s-lg max-[640px]:rounded-e-lg max-[640px]:rounded-b-none hover:bg-[#80EEB5] transition duration-150 ease-in-out`}
                         onClick={() => setActiveTab('funcionalidade')}
                         aria-current={activeTab === 'funcionalidade' ? 'page' : undefined}
                     >
@@ -42,7 +29,7 @@ export default function Abas() {
                 </li>
                 <li className="w-56">
                     <button
-                        className={`inline-block w-full p-4 text-black ${activeTab === 'faq' ? 'bg-[#80EEB5] transition duration-150 ease-in-out' : 'bg-white'} border-gray-200 rounded-e-lg hover:bg-[#80EEB5] transition duration-150 ease-in-out`}
+                        className={`inline-block w-full p-4 text-black ${activeTab === 'faq' ? 'bg-[#80EEB5]' : 'bg-white'} border-gray-200 rounded-e-lg max-[640px]:rounded-e-none max-[640px]:rounded-b-lg hover:bg-[#80EEB5] transition duration-150 ease-in-out`}
                         onClick={() => setActiveTab('faq')}
                         aria-current={activeTab === 'faq' ? 'page' : undefined}
                     >
