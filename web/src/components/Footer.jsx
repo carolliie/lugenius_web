@@ -3,7 +3,7 @@ import { FaWhatsapp, FaInstagram, FaEnvelope } from 'react-icons/fa';
 export default function Footer() {
     return (
         <div>
-            <div className="bg-[#E7FAEA] flex flex-col justify-center items-center p-20 max-sm:p-8 max-sm:py-12 max-sm:mb-4">
+            <div className="bg-[#E7FAEA] flex flex-col justify-center items-center p-20 max-sm:p-8 max-sm:py-12">
                 <img src="src/assets/img/logos/logo_preta.svg" alt="logo lugenius" href="lugenius.com" className='max-sm:h-12' />
                 <h1 className="font-bold text-5xl w-1/2 text-center mt-5 mb-8 max-sm:text-3xl max-sm:w-full">Eaí, vamos começar
                     a vender on-line?</h1>

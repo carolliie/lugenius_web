@@ -38,7 +38,7 @@ export default function Abas() {
                 </li>
             </ul>
             <div id="flex flex-row default-styled-tab-content">
-                <div className={`p-4 ${activeTab === 'funcionalidade' ? 'block' : 'hidden'}`} id="styled-funcionalidade" role="tabpanel" aria-labelledby="funcionalidade-tab">
+                <div className={` ${activeTab === 'funcionalidade' ? 'block' : 'hidden'}`} id="styled-funcionalidade" role="tabpanel" aria-labelledby="funcionalidade-tab">
                     <Funcionalidades/>
                 </div>
                 <div className={`p-4 ${activeTab === 'avaliacoes' ? 'block' : 'hidden'}`} id="styled-avaliacoes" role="tabpanel" aria-labelledby="avaliacoes-tab">

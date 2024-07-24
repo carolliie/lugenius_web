@@ -1,3 +1,5 @@
+import SliderComponent from "./SliderComponent"
+
 export default function Sobre() {
     return (
         <div className="flex flex-col justify-center items-center mx-auto max-sm:px-10">
@@ -12,8 +14,8 @@ export default function Sobre() {
                 </p>
             </div>
 
-            <div className="grid grid-cols-7 gap-10 justify-center items-center py-20">
-                <a href="https://zullubarbearia.com.br/" target="_blank" rel="noopener noreferrer">
+            <div className="grid grid-cols-1 justify-center items-center py-20">
+                {/*<a href="https://zullubarbearia.com.br/" target="_blank" rel="noopener noreferrer">
                     <img src="src/assets/img/logos/zullu.svg" alt="zullu" className="w-26 h-26 mx-auto" />
                 </a>
                 <a href="https://kbeautybrasil.com/" target="_blank" rel="noopener noreferrer">
@@ -61,23 +63,23 @@ export default function Sobre() {
                 <a href="https://hztcapital.com/" target="_blank" rel="noopener noreferrer">
                     <img src="src/assets/img/logos/HORIZONTECAPITAL.svg" alt="HORIZONTECAPITAL" className="w-26 h-26 mx-auto" />
                 </a>
-                <a href="https://perola.com" target="_blank" rel="noopener noreferrer">
-                    <img src="src/assets/img/logos/PÉROLA.svg" alt="PÉROLA" className="w-26 h-26 mx-auto" />
+                <a href="https://burningfood.com.br" target="_blank" rel="noopener noreferrer">
+                    <img src="src/assets/img/logos/BURNING.svg" alt="BURNING" className="w-26 h-26 mx-auto" />
                 </a>
-                <a href="https://dvale.com" target="_blank" rel="noopener noreferrer">
-                    <img src="src/assets/img/logos/DVALE.svg" alt="DVALE" className="w-26 h-26 mx-auto" />
+                <a href="https://hzpark.com" target="_blank" rel="noopener noreferrer">
+                    <img src="src/assets/img/logos/HORIZONTEPARK.svg" alt="HORIZONTEPARK" className="w-26 h-26 mx-auto" />
                 </a>
-                <a href="https://up.com" target="_blank" rel="noopener noreferrer">
-                    <img src="src/assets/img/logos/UP.svg" alt="UP" className="w-26 h-26 mx-auto" />
+                <a href="https://magiofer.com" target="_blank" rel="noopener noreferrer">
+                    <img src="src/assets/img/logos/MAGIOFER.svg" alt="MAGIOFER" className="w-26 h-26 mx-auto" />
                 </a>
                 <a href="https://borillicoffee.com/" target="_blank" rel="noopener noreferrer">
                     <img src="src/assets/img/logos/BORILLI.svg" alt="BORILLI" className="w-26 h-26 mx-auto" />
                 </a>
                 <a href="https://angelicalstore.com.br" target="_blank" rel="noopener noreferrer">
                     <img src="src/assets/img/logos/ANGELICAL.svg" alt="ANGELICAL" className="w-26 h-26 mx-auto" />
-                </a>
+                </a>*/}
+                <SliderComponent/>
             </div>
-
         </div>
     )
 }
