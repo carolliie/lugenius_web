@@ -13,52 +13,52 @@ export default function Sobre() {
             </div>
 
             <div className="grid grid-cols-7 gap-10 justify-center items-center py-20">
-                <a href="https://zullu.com" target="_blank" rel="noopener noreferrer">
+                <a href="https://zullubarbearia.com.br/" target="_blank" rel="noopener noreferrer">
                     <img src="src/assets/img/logos/zullu.svg" alt="zullu" className="w-26 h-26 mx-auto" />
                 </a>
-                <a href="https://kbeauty.com" target="_blank" rel="noopener noreferrer">
+                <a href="https://kbeautybrasil.com/" target="_blank" rel="noopener noreferrer">
                     <img src="src/assets/img/logos/K.BEAUTY.svg" alt="K.BEAUTY" className="w-26 h-26 mx-auto" />
                 </a>
                 <a target="_blank" rel="noopener noreferrer">
                     <img src="src/assets/img/logos/OBOTICARIO.svg" alt="OBOTICARIO" className="w-26 h-26 mx-auto" />
                 </a>
-                <a href="https://barovi.com" target="_blank" rel="noopener noreferrer">
+                <a href="https://barovi.com.br" target="_blank" rel="noopener noreferrer">
                     <img src="src/assets/img/logos/BAROVI.svg" alt="BAROVI" className="w-26 h-26 mx-auto" />
                 </a>
-                <a href="https://silassousa.com" target="_blank" rel="noopener noreferrer">
+                <a href="https://silassousabarbearia.com.br/" target="_blank" rel="noopener noreferrer">
                     <img src="src/assets/img/logos/silas_sousa.svg" alt="silas_sousa" className="w-26 h-26 mx-auto" />
                 </a>
-                <a href="https://masa.com" target="_blank" rel="noopener noreferrer">
+                <a href="https://www.masadistribuidora.com.br/" target="_blank" rel="noopener noreferrer">
                     <img src="src/assets/img/logos/MASA.svg" alt="MASA" className="w-26 h-26 mx-auto" />
                 </a>
-                <a href="https://henriquetasca.com" target="_blank" rel="noopener noreferrer">
+                <a href="https://henriquetasca.com.br/" target="_blank" rel="noopener noreferrer">
                     <img src="src/assets/img/logos/henrique_tasca.svg" alt="henrique_tasca" className="w-26 h-26 mx-auto" />
                 </a>
                 <a href="https://leoesantos.com" target="_blank" rel="noopener noreferrer">
                     <img src="src/assets/img/logos/LEO&SANTOS.svg" alt="LEO&SANTOS" className="w-26 h-26 mx-auto" />
                 </a>
-                <a target="_blank" rel="noopener noreferrer">
+                <a href="https://mmmasterbuild.com/" target="_blank" rel="noopener noreferrer">
                     <img src="src/assets/img/logos/MM_MASTER.svg" alt="MM_MASTER" className="w-26 h-26 mx-auto" />
                 </a>
-                <a href="https://tapajos.com" target="_blank" rel="noopener noreferrer">
+                <a href="https://tapajosskateshop.com.br/" target="_blank" rel="noopener noreferrer">
                     <img src="src/assets/img/logos/TAPAJÓS.svg" alt="TAPAJÓS" className="w-26 h-26 mx-auto" />
                 </a>
-                <a href="https://podium.com" target="_blank" rel="noopener noreferrer">
+                <a href="https://podiumdriver.com.br/" target="_blank" rel="noopener noreferrer">
                     <img src="src/assets/img/logos/PODIUM.svg" alt="PODIUM" className="w-26 h-26 mx-auto" />
                 </a>
-                <a href="https://cozinhadohumberto.com" target="_blank" rel="noopener noreferrer">
+                <a href="https://cozinhadohumberto.co.uk/" target="_blank" rel="noopener noreferrer">
                     <img src="src/assets/img/logos/COZINHADOHUMBERTO.svg" alt="COZINHADOHUMBERTO" className="w-26 h-26 mx-auto" />
                 </a>
-                <a href="https://evo.com" target="_blank" rel="noopener noreferrer">
+                <a href="https://evoimobiliaria.com.br/" target="_blank" rel="noopener noreferrer">
                     <img src="src/assets/img/logos/EVO.svg" alt="EVO" className="w-26 h-26 mx-auto" />
                 </a>
-                <a href="https://rcs.com" target="_blank" rel="noopener noreferrer">
+                <a href="https://rsixcontabilidade.com.br/" target="_blank" rel="noopener noreferrer">
                     <img src="src/assets/img/logos/RCS.svg" alt="RCS" className="w-26 h-26 mx-auto" />
                 </a>
-                <a href="https://andreilealavel.com" target="_blank" rel="noopener noreferrer">
+                <a href="https://andreileal.com.br/" target="_blank" rel="noopener noreferrer">
                     <img src="src/assets/img/logos/Andrei_Leal_Ável.svg" alt="Andrei_Leal_Ável" className="w-26 h-26 mx-auto" />
                 </a>
-                <a href="https://horizontecapital.com" target="_blank" rel="noopener noreferrer">
+                <a href="https://hztcapital.com/" target="_blank" rel="noopener noreferrer">
                     <img src="src/assets/img/logos/HORIZONTECAPITAL.svg" alt="HORIZONTECAPITAL" className="w-26 h-26 mx-auto" />
                 </a>
                 <a href="https://perola.com" target="_blank" rel="noopener noreferrer">
@@ -70,10 +70,10 @@ export default function Sobre() {
                 <a href="https://up.com" target="_blank" rel="noopener noreferrer">
                     <img src="src/assets/img/logos/UP.svg" alt="UP" className="w-26 h-26 mx-auto" />
                 </a>
-                <a href="https://borilli.com" target="_blank" rel="noopener noreferrer">
+                <a href="https://borillicoffee.com/" target="_blank" rel="noopener noreferrer">
                     <img src="src/assets/img/logos/BORILLI.svg" alt="BORILLI" className="w-26 h-26 mx-auto" />
                 </a>
-                <a href="https://angelical.com" target="_blank" rel="noopener noreferrer">
+                <a href="https://angelicalstore.com.br" target="_blank" rel="noopener noreferrer">
                     <img src="src/assets/img/logos/ANGELICAL.svg" alt="ANGELICAL" className="w-26 h-26 mx-auto" />
                 </a>
             </div>
