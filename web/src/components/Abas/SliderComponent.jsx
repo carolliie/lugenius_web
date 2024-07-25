@@ -20,7 +20,7 @@ const SliderComponent = () => {
         { src: "src/assets/img/logos/HORIZONTECAPITAL.svg", alt: "HORIZONTECAPITAL", href: "https://hztcapital.com/" },
         { src: "src/assets/img/logos/BURNING.svg", alt: "BURNING", href: "https://burningfood.com.br" },
         { src: "src/assets/img/logos/HORIZONTEPARK.svg", alt: "HORIZONTEPARK", href: "https://hzpark.com" },
-        { src: "src/assets/img/logos/MAGIOFER.svg", alt: "MAGIOFER", href: "https://magioferhomecenter.com.br/" },
+        { src: "src/assets/img/logos/magiofer.svg", alt: "magiofer", href: "https://magioferhomecenter.com.br/" },
         { src: "src/assets/img/logos/BORILLI.svg", alt: "BORILLI", href: "https://borillicoffee.com/" },
         { src: "src/assets/img/logos/ANGELICAL.svg", alt: "ANGELICAL", href: "https://angelicalstore.com.br" }
     ];

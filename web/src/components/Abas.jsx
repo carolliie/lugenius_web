@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import Funcionalidades from './Abas/Funcionalidades';
 import FaQ from './Abas/FAQ';
+import Avaliacoes from './Abas/Avaliacoes';
 
 
 export default function Abas() {
@@ -42,7 +43,7 @@ export default function Abas() {
                     <Funcionalidades/>
                 </div>
                 <div className={`p-4 ${activeTab === 'avaliacoes' ? 'block' : 'hidden'}`} id="styled-avaliacoes" role="tabpanel" aria-labelledby="avaliacoes-tab">
-                    <p className="text-sm text-gray-500">Este é o conteúdo da aba <strong className="font-medium text-gray-800">Avaliações</strong>.</p>
+                    <Avaliacoes/>
                 </div>
                 <div className={`p-4 ${activeTab === 'faq' ? 'block' : 'hidden'}`} id="styled-faq" role="tabpanel" aria-labelledby="faq-tab">
                     <FaQ/>
