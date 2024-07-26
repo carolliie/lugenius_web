@@ -39,13 +39,13 @@ export default function Abas() {
                 </li>
             </ul>
             <div id="flex flex-row default-styled-tab-content">
-                <div className={` ${activeTab === 'funcionalidade' ? 'block' : 'hidden'}`} id="styled-funcionalidade" role="tabpanel" aria-labelledby="funcionalidade-tab">
+                <div className={`transition-opacity duration-500 ${activeTab === 'funcionalidade' ? 'opacity-100 visible' : 'opacity-0 invisible absolute'}`} id="styled-funcionalidade" role="tabpanel" aria-labelledby="funcionalidade-tab">
                     <Funcionalidades/>
                 </div>
-                <div className={`p-4 ${activeTab === 'avaliacoes' ? 'block' : 'hidden'}`} id="styled-avaliacoes" role="tabpanel" aria-labelledby="avaliacoes-tab">
+                <div className={`transition-opacity duration-500 ${activeTab === 'avaliacoes' ? 'opacity-100 visible' : 'opacity-0 invisible absolute'}`} id="styled-avaliacoes" role="tabpanel" aria-labelledby="avaliacoes-tab">
                     <Avaliacoes/>
                 </div>
-                <div className={`p-4 ${activeTab === 'faq' ? 'block' : 'hidden'}`} id="styled-faq" role="tabpanel" aria-labelledby="faq-tab">
+                <div className={`transition-opacity duration-500 ${activeTab === 'faq' ? 'opacity-100 visible' : 'opacity-0 invisible absolute'}`} id="styled-faq" role="tabpanel" aria-labelledby="faq-tab">
                     <FaQ/>
                 </div>
             </div>

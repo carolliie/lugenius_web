@@ -1,5 +1,7 @@
 import React, { useState, useEffect, useRef } from 'react';
 import { FaWhatsapp, FaInstagram, FaEnvelope } from 'react-icons/fa';
+import logoPreta from '../assets/img/logos/logo_preta.svg';
+import logoBranca from '../assets/img/logos/logo_branca.svg';
 
 export default function Footer() {
 
@@ -50,7 +52,7 @@ export default function Footer() {
     return (
         <div>
             <div className="bg-[#E7FAEA] flex flex-col justify-center items-center p-20 max-sm:p-8 max-sm:py-12">
-                <img src="src/assets/img/logos/logo_preta.svg" alt="logo lugenius" href="lugenius.com" className='max-sm:h-12' />
+                <img src={logoPreta} alt="logo lugenius" href="lugenius.com" className='max-sm:h-12' />
                 <h1 className="font-bold text-5xl w-2/5 text-center mt-5 mb-8 max-sm:text-3xl max-sm:w-full h-20">
                     <TypingEffect text="Eaí, vamos começar a vender on-line?" speed={100} />
                 </h1>
@@ -63,7 +65,7 @@ export default function Footer() {
             </div>
             <div className="flex flex-row bg-[#12D03C] p-6 justify-around items-center space-x-6 max-sm:flex-col max-sm:space-x-0">
                 <a href="https://lugenius.com">
-                    <img src="src/assets/img/logos/logo_branca.svg" alt="logo branca" className="h-14 max-sm:mb-8" />
+                    <img src={logoBranca} alt="logo branca" className="h-14 max-sm:mb-8" />
                 </a>
 
                 <div className="flex flex-row space-x-8 text-white max-sm:text-xs max-sm:justify-center max-sm:items-center max-sm:flex-wrap max-sm:space-x-2">

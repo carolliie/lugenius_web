@@ -1,4 +1,9 @@
 import { useSprings, useSpring, animated } from '@react-spring/web';
+import vendasImg from '../assets/img/vendas.webp';
+import panelImg from '../assets/img/panel.webp';
+import lojaImg from '../assets/img/loja.webp';
+import logoPretaImg from '../assets/img/logos/logo_preta.svg';
+import iconImg from '../assets/img/icon.svg';
 
 export default function Banner() {
     const [props, api] = useSpring(
@@ -8,12 +13,12 @@ export default function Banner() {
             config: { duration: 1000 },
         }),
         []
-    )
+    );
 
     const images = [
-        { src: 'src/assets/img/vendas.webp', alt: 'vendas', className: 'h-48 max-[640px]:h-28 max-[640px]:absolute max-[640px]:top-20 max-[640px]:right-0' },
-        { src: 'src/assets/img/panel.webp', alt: 'painel', className: 'h-96 max-[640px]:hidden' },
-        { src: 'src/assets/img/loja.webp', alt: 'loja', className: 'h-64 max-[640px]:h-96 mx-auto' }
+        { src: vendasImg, alt: 'vendas', className: 'h-48 max-[640px]:h-28 max-[640px]:absolute max-[640px]:top-20 max-[640px]:right-0 z-10' },
+        { src: panelImg, alt: 'painel', className: 'h-96 max-[640px]:hidden' },
+        { src: lojaImg, alt: 'loja', className: 'h-64 max-[640px]:h-96 mx-auto' }
     ];
 
     const springs = useSprings(
@@ -23,7 +28,7 @@ export default function Banner() {
             to: async (next) => {
                 while (true) {
                     await next({ transform: 'scale(1.05)', opacity: 1 });
-                    await next({ transform: 'scale(1)', opacity: 0.8 });
+                    await next({ transform: 'scale(1)', opacity: 1 });
                     await new Promise(resolve => setTimeout(resolve, (images.length - 1) * 1500));
                 }
             },
@@ -32,26 +37,25 @@ export default function Banner() {
         }))
     );
 
-
     return (
         <animated.div style={props}>
             <div className="flex flex-col justify-center items-center p-12 py-20 max-[640px]:p-5 max-[640px]:py-14">
                 <div className='flex flex-col justify-center items-center'>
-                    <img src="src/assets/img/logos/logo_preta.svg" alt="Logo preta" className="h-16 w-auto max-[640px]:h-10 mx-auto" />
+                    <img src={logoPretaImg} alt="Logo preta" className="h-16 w-auto max-[640px]:h-10 mx-auto" />
                     <div className="flex justify-center items-center">
                         <h1 className="font-bold text-center text-5xl mt-2 w-2/3 max-[640px]:text-3xl max-[640px]:w-full">Sua loja on-line pronta para vender</h1>
                     </div>
                     <div className="flex flex-row space-x-6 mt-6 max-sm:hidden">
                         <p className="flex flex-row items-center max-[640px]:flex-col max-[640px]:items-center max-[640px]:text-sm max-[640px]:text-center max-[640px]:justify-center max-[640px]:mt-2">
-                            <img src="src/assets/img/icon.svg" alt="icon verde" className="h-8 mx-2 max-[640px]:h-6" />
+                            <img src={iconImg} alt="icon verde" className="h-8 mx-2 max-[640px]:h-6" />
                             Gestão completa
                         </p>
                         <p className="flex flex-row items-center max-[640px]:flex-col max-[640px]:items-center max-[640px]:text-sm max-[640px]:text-center max-[640px]:justify-center max-[640px]:mt-2">
-                            <img src="src/assets/img/icon.svg" alt="icon verde" className="h-8 mx-2 max-[640px]:h-6" />
+                            <img src={iconImg} alt="icon verde" className="h-8 mx-2 max-[640px]:h-6" />
                             Fácil de usar
                         </p>
                         <p className="flex flex-row items-center max-[640px]:flex-col max-[640px]:items-center max-[640px]:text-sm max-[640px]:text-center max-[640px]:justify-center max-[640px]:mt-2">
-                            <img src="src/assets/img/icon.svg" alt="icon verde" className="h-8 mx-2 max-[640px]:h-6" />
+                            <img src={iconImg} alt="icon verde" className="h-8 mx-2 max-[640px]:h-6" />
                             Pagamentos integrados
                         </p>
                     </div>
@@ -61,15 +65,15 @@ export default function Banner() {
                     </div>
                     <div className="flex flex-row space-x-6 mt-6 mb-10 lg:hidden">
                         <p className="flex flex-row items-center max-[640px]:flex-col max-[640px]:items-center max-[640px]:text-sm max-[640px]:text-center max-[640px]:justify-center max-[640px]:mt-2">
-                            <img src="src/assets/img/icon.svg" alt="icon verde" className="h-8 mx-2 max-[640px]:h-6 max-sm:mb-2" />
+                            <img src={iconImg} alt="icon verde" className="h-8 mx-2 max-[640px]:h-6 max-sm:mb-2" />
                             Gestão completa
                         </p>
                         <p className="flex flex-row items-center max-[640px]:flex-col max-[640px]:items-center max-[640px]:text-sm max-[640px]:text-center max-[640px]:justify-center max-[640px]:mt-2">
-                            <img src="src/assets/img/icon.svg" alt="icon verde" className="h-8 mx-2 max-[640px]:h-6 max-sm:mb-2" />
+                            <img src={iconImg} alt="icon verde" className="h-8 mx-2 max-[640px]:h-6 max-sm:mb-2" />
                             Fácil de usar
                         </p>
                         <p className="flex flex-row items-center max-[640px]:flex-col max-[640px]:items-center max-[640px]:text-sm max-[640px]:text-center max-[640px]:justify-center max-[640px]:mt-2">
-                            <img src="src/assets/img/icon.svg" alt="icon verde" className="h-8 mx-2 max-[640px]:h-6 max-sm:mb-2" />
+                            <img src={iconImg} alt="icon verde" className="h-8 mx-2 max-[640px]:h-6 max-sm:mb-2" />
                             Pagamentos integrados
                         </p>
                     </div>

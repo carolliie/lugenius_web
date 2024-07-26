@@ -1,28 +1,50 @@
 import Slider from 'react-infinite-logo-slider';
 
+import zullu from '../../assets/img/logos/zullu.svg';
+import kBeauty from '../../assets/img/logos/K.BEAUTY.svg';
+import oboticario from '../../assets/img/logos/OBOTICARIO.svg';
+import barovi from '../../assets/img/logos/BAROVI.svg';
+import silasSousa from '../../assets/img/logos/silas_sousa.svg';
+import masa from '../../assets/img/logos/MASA.svg';
+import henriqueTasca from '../../assets/img/logos/henrique_tasca.svg';
+import leoSantos from '../../assets/img/logos/LEO&SANTOS.svg';
+import mmMaster from '../../assets/img/logos/MM_MASTER.svg';
+import tapajos from '../../assets/img/logos/TAPAJÓS.svg';
+import podium from '../../assets/img/logos/PODIUM.svg';
+import cozinhaDoHumberto from '../../assets/img/logos/COZINHADOHUMBERTO.svg';
+import evo from '../../assets/img/logos/EVO.svg';
+import rcs from '../../assets/img/logos/RCS.svg';
+import andreiLealAvel from '../../assets/img/logos/Andrei_Leal_Ável.svg';
+import horizonteCapital from '../../assets/img/logos/HORIZONTECAPITAL.svg';
+import burning from '../../assets/img/logos/BURNING.svg';
+import horizontePark from '../../assets/img/logos/HORIZONTEPARK.svg';
+import magiofer from '../../assets/img/logos/magiofer.svg';
+import borilli from '../../assets/img/logos/BORILLI.svg';
+import angelical from '../../assets/img/logos/ANGELICAL.svg';
+
 const SliderComponent = () => {
     const logos = [
-        { src: "src/assets/img/logos/zullu.svg", alt: "zullu", href: "https://zullubarbearia.com.br/" },
-        { src: "src/assets/img/logos/K.BEAUTY.svg", alt: "K.BEAUTY", href: "https://kbeautybrasil.com/" },
-        { src: "src/assets/img/logos/OBOTICARIO.svg", alt: "OBOTICARIO", href: "#" },
-        { src: "src/assets/img/logos/BAROVI.svg", alt: "BAROVI", href: "https://barovi.com.br" },
-        { src: "src/assets/img/logos/silas_sousa.svg", alt: "silas_sousa", href: "https://silassousabarbearia.com.br/" },
-        { src: "src/assets/img/logos/MASA.svg", alt: "MASA", href: "https://www.masadistribuidora.com.br/" },
-        { src: "src/assets/img/logos/henrique_tasca.svg", alt: "henrique_tasca", href: "https://henriquetasca.com.br/" },
-        { src: "src/assets/img/logos/LEO&SANTOS.svg", alt: "LEO&SANTOS", href: "https://leoesantos.com" },
-        { src: "src/assets/img/logos/MM_MASTER.svg", alt: "MM_MASTER", href: "https://mmmasterbuild.com/" },
-        { src: "src/assets/img/logos/TAPAJÓS.svg", alt: "TAPAJÓS", href: "https://tapajosskateshop.com.br/" },
-        { src: "src/assets/img/logos/PODIUM.svg", alt: "PODIUM", href: "https://podiumdriver.com.br/" },
-        { src: "src/assets/img/logos/COZINHADOHUMBERTO.svg", alt: "COZINHADOHUMBERTO", href: "https://cozinhadohumberto.co.uk/" },
-        { src: "src/assets/img/logos/EVO.svg", alt: "EVO", href: "https://evoimobiliaria.com.br/" },
-        { src: "src/assets/img/logos/RCS.svg", alt: "RCS", href: "https://rsixcontabilidade.com.br/" },
-        { src: "src/assets/img/logos/Andrei_Leal_Ável.svg", alt: "Andrei_Leal_Ável", href: "https://andreileal.com.br/"},
-        { src: "src/assets/img/logos/HORIZONTECAPITAL.svg", alt: "HORIZONTECAPITAL", href: "https://hztcapital.com/" },
-        { src: "src/assets/img/logos/BURNING.svg", alt: "BURNING", href: "https://burningfood.com.br" },
-        { src: "src/assets/img/logos/HORIZONTEPARK.svg", alt: "HORIZONTEPARK", href: "https://hzpark.com" },
-        { src: "src/assets/img/logos/magiofer.svg", alt: "magiofer", href: "https://magioferhomecenter.com.br/" },
-        { src: "src/assets/img/logos/BORILLI.svg", alt: "BORILLI", href: "https://borillicoffee.com/" },
-        { src: "src/assets/img/logos/ANGELICAL.svg", alt: "ANGELICAL", href: "https://angelicalstore.com.br" }
+        { src: zullu, alt: "zullu", href: "https://zullubarbearia.com.br/" },
+        { src: kBeauty, alt: "K.BEAUTY", href: "https://kbeautybrasil.com/" },
+        { src: oboticario, alt: "OBOTICARIO", href: "#" },
+        { src: barovi, alt: "BAROVI", href: "https://barovi.com.br" },
+        { src: silasSousa, alt: "silas_sousa", href: "https://silassousabarbearia.com.br/" },
+        { src: masa, alt: "MASA", href: "https://www.masadistribuidora.com.br/" },
+        { src: henriqueTasca, alt: "henrique_tasca", href: "https://henriquetasca.com.br/" },
+        { src: leoSantos, alt: "LEO&SANTOS", href: "https://leoesantos.com" },
+        { src: mmMaster, alt: "MM_MASTER", href: "https://mmmasterbuild.com/" },
+        { src: tapajos, alt: "TAPAJÓS", href: "https://tapajosskateshop.com.br/" },
+        { src: podium, alt: "PODIUM", href: "https://podiumdriver.com.br/" },
+        { src: cozinhaDoHumberto, alt: "COZINHADOHUMBERTO", href: "https://cozinhadohumberto.co.uk/" },
+        { src: evo, alt: "EVO", href: "https://evoimobiliaria.com.br/" },
+        { src: rcs, alt: "RCS", href: "https://rsixcontabilidade.com.br/" },
+        { src: andreiLealAvel, alt: "Andrei_Leal_Ável", href: "https://andreileal.com.br/"},
+        { src: horizonteCapital, alt: "HORIZONTECAPITAL", href: "https://hztcapital.com/" },
+        { src: burning, alt: "BURNING", href: "https://burningfood.com.br" },
+        { src: horizontePark, alt: "HORIZONTEPARK", href: "https://hzpark.com" },
+        { src: magiofer, alt: "magiofer", href: "https://magioferhomecenter.com.br/" },
+        { src: borilli, alt: "BORILLI", href: "https://borillicoffee.com/" },
+        { src: angelical, alt: "ANGELICAL", href: "https://angelicalstore.com.br" }
     ];
 
     return (

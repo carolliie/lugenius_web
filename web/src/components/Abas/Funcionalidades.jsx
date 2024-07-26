@@ -1,12 +1,19 @@
 import YoutubeEmbed from './YoutubeEmbed';
 import Ajuda from './Ajuda';
 import Sobre from './Sobre';
+import icone1 from '../../../src/assets/img/icone1.svg';
+import icone2 from '../../../src/assets/img/icone2.svg';
+import icone3 from '../../../src/assets/img/icone3.svg';
+import icone4 from '../../../src/assets/img/icone4.svg';
+import icone5 from '../../../src/assets/img/icone5.svg';
+import icone6 from '../../../src/assets/img/icone6.svg';
+import icone7 from '../../../src/assets/img/icone7.svg';
 
 export default function Funcionalidades() {
     return (
         <div className="flex flex-col items-center justify-between space-y-8 mt-12">
             <div className="flex flex-col lg:flex-row items-center justify-center w-3/5 mb-20 space-y-8 lg:space-y-0 lg:space-x-36 max-[640px]:px-6 max-sm:mb-4">
-                <img src="src/assets/img/icone1.svg" alt="laptop" className="h-80 max-sm:mx-auto max-sm:h-56 max-sm:mt-8" />
+                <img src={icone1} alt="laptop" className="h-80 max-sm:mx-auto max-sm:h-56 max-sm:mt-8" />
                 <div className="w-full lg:w-1/2 text-center lg:text-left max-[640px]:text-start">
                     <h2 className="text-3xl font-bold mb-4 max-[640px]:text-lg">Criação fácil, intuitiva e sem complicações</h2>
                     <p className="text-black max-[640px]:text-sm">
@@ -18,18 +25,18 @@ export default function Funcionalidades() {
 
             <div className="flex flex-col lg:flex-row items-center justify-center w-3/5 mb-20 space-y-8 lg:space-y-0 lg:space-x-36 max-[640px]:px-6 max-sm:mb-4">
                 <div className="w-full lg:w-1/2 text-center lg:text-left lg:order-first max-[640px]:text-start">
-                    <img src="src/assets/img/icone2.svg" alt="laptop" className="h-80 max-sm:mx-auto max-sm:h-56 lg:hidden max-sm:mt-8" />
+                    <img src={icone2} alt="laptop" className="h-80 max-sm:mx-auto max-sm:h-56 lg:hidden max-sm:mt-8" />
                     <h2 className="text-3xl font-bold mb-4 max-[640px]:text-lg">Diversas opções para receber pagamentos</h2>
                     <p className="text-black max-[640px]:text-sm">
                         Oferecemos suporte a uma ampla gama de métodos de pagamento, garantindo que você possa atender a todos os seus clientes com facilidade. <strong>Aceite cartões de crédito, PIX e boletos</strong>, proporcionando conveniência e flexibilidade na hora de fechar a compra.
                         Essa variedade de opções aumenta suas chances de conversão, pois atende às preferências de pagamento dos seus clientes. Com a integração simples e rápida desses métodos, <strong>você oferece uma experiência de compra segura e eficiente</strong>, essencial para conquistar e fidelizar sua clientela. Simplifique o processo de pagamento e aumente suas vendas com nossa solução abrangente de e-commerce.
                     </p>
                 </div>
-                <img src="src/assets/img/icone2.svg" alt="laptop" className="h-80 max-sm:mx-auto max-sm:h-56 max-[640px]:hidden" />
+                <img src={icone2} alt="laptop" className="h-80 max-sm:mx-auto max-sm:h-56 max-[640px]:hidden" />
             </div>
 
             <div className="flex flex-col lg:flex-row items-center justify-center w-3/5 mb-20 space-y-8 lg:space-y-0 lg:space-x-36 max-[640px]:px-6 max-sm:mb-4">
-                <img src="src/assets/img/icone3.svg" alt="laptop" className="h-80 max-sm:mx-auto max-sm:h-56 max-sm:mt-8" />
+                <img src={icone3} alt="laptop" className="h-80 max-sm:mx-auto max-sm:h-56 max-sm:mt-8" />
                 <div className="w-full lg:w-1/2 text-center lg:text-left max-[640px]:text-start">
                     <h2 className="text-3xl font-bold mb-4 max-[640px]:text-lg">Cálculo de envio automático</h2>
                     <p className="text-black max-[640px]:text-sm">
@@ -41,18 +48,18 @@ export default function Funcionalidades() {
 
             <div className="flex flex-col lg:flex-row items-center justify-center w-3/5 mb-20 space-y-8 lg:space-y-0 lg:space-x-36 max-[640px]:px-6 max-sm:mb-4">
                 <div className="w-full lg:w-1/2 text-center lg:text-left lg:order-first max-[640px]:text-start">
-                    <img src="src/assets/img/icone4.svg" alt="laptop" className="h-80 max-sm:mx-auto max-sm:h-56 lg:hidden max-sm:mt-8 max-sm:mb-6" />
+                    <img src={icone4} alt="laptop" className="h-80 max-sm:mx-auto max-sm:h-56 lg:hidden max-sm:mt-8 max-sm:mb-6" />
                     <h2 className="text-3xl font-bold mb-4 max-[640px]:text-lg">Relatório de vendas detalhados</h2>
                     <p className="text-black max-[640px]:text-sm">
                         Mantenha-se informado e <strong>tome decisões estratégicas</strong> com nossos relatórios de vendas detalhados. Nossa plataforma oferece análises abrangentes do desempenho do seu e-commerce, permitindo que você acompanhe as vendas, identifique tendências e entenda o comportamento dos clientes.
                         Com gráficos intuitivos e dados precisos, você pode facilmente monitorar o progresso do seu negócio, ajustar suas estratégias e maximizar suas oportunidades de crescimento. Os relatórios incluem informações sobre produtos mais vendidos, receita gerada, e padrões de compra, fornecendo insights valiosos para aprimorar suas operações e campanhas de marketing. <strong>Transforme dados em ações concretas</strong> e impulsione o sucesso do seu e-commerce com nossa solução.
                     </p>
                 </div>
-                <img src="src/assets/img/icone4.svg" alt="laptop" className="h-80 max-sm:mx-auto max-sm:h-56 max-[640px]:hidden" />
+                <img src={icone4} alt="laptop" className="h-80 max-sm:mx-auto max-sm:h-56 max-[640px]:hidden" />
             </div>
 
             <div className="flex flex-col lg:flex-row items-center justify-center w-3/5 mb-20 space-y-8 lg:space-y-0 lg:space-x-36 max-[640px]:px-6 max-sm:mb-4">
-                <img src="src/assets/img/icone5.svg" alt="laptop" className="h-80 max-sm:mx-auto max-sm:h-56 max-sm:mt-8" />
+                <img src={icone5} alt="laptop" className="h-80 max-sm:mx-auto max-sm:h-56 max-sm:mt-8" />
                 <div className="w-full lg:w-1/2 text-center lg:text-left max-[640px]:text-start">
                     <h2 className="text-3xl font-bold mb-4 max-[640px]:text-lg">Promoções e cupons de desconto</h2>
                     <p className="text-black max-[640px]:text-sm">
@@ -64,7 +71,7 @@ export default function Funcionalidades() {
 
             <div className="flex flex-col lg:flex-row items-center justify-center w-3/5 mb-20 space-y-8 lg:space-y-0 lg:space-x-36 max-[640px]:px-6 max-sm:mb-4">
                 <div className="w-full lg:w-1/2 text-center lg:text-left lg:order-first max-[640px]:text-start">
-                    <img src="src/assets/img/icone6.svg" alt="laptop" className="h-80 max-sm:mx-auto max-sm:h-56 lg:hidden max-sm:mt-8 max-sm:mb-6" />
+                    <img src={icone6} alt="laptop" className="h-80 max-sm:mx-auto max-sm:h-56 lg:hidden max-sm:mt-8 max-sm:mb-6" />
                     <h2 className="text-3xl font-bold mb-4 max-[640px]:text-lg">Gestão completa do seu E-commerce</h2>
                     <p className="text-black max-[640px]:text-sm">
                         Simplifique a administração do seu negócio com uma solução de gestão completa. <strong>lntegramos todas as ferramentas essenciais para gerenciar vendas, estoque e contas de clientes em um único lugar.</strong> Controle suas operações de maneira eficiente, economizando tempo e reduzindo a complexidade da gestão do seu loja on-line.
@@ -72,11 +79,11 @@ export default function Funcionalidades() {
                         Nossa solução oferece tudo o que você precisa para operar seu e-commerce de forma integrada e eficiente, permitindo que você se concentre no crescimento do seu negócio.
                     </p>
                 </div>
-                <img src="src/assets/img/icone6.svg" alt="laptop" className="h-80 max-sm:mx-auto max-sm:h-56 max-[640px]:hidden" />
+                <img src={icone6} alt="laptop" className="h-80 max-sm:mx-auto max-sm:h-56 max-[640px]:hidden" />
             </div>
 
             <div className="flex flex-col lg:flex-row items-center justify-center w-3/5 space-y-8 lg:space-y-0 lg:space-x-36 max-[640px]:px-6 max-sm:mb-4">
-                <img src="src/assets/img/icone7.svg" alt="laptop" className="h-80 max-sm:mx-auto max-sm:h-56 max-sm:mt-8 max-sm:mb-4" />
+                <img src={icone7} alt="laptop" className="h-80 max-sm:mx-auto max-sm:h-56 max-sm:mt-8 max-sm:mb-4" />
                 <div className="w-full lg:w-1/2 text-center lg:text-left max-[640px]:text-start">
                     <h2 className="text-3xl font-bold mb-4 max-[640px]:text-lg">Aplicativo no celular para gerenciamento</h2>
                     <p className="text-black max-[640px]:text-sm">

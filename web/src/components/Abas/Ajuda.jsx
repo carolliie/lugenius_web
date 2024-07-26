@@ -1,3 +1,6 @@
+import ilustracao2 from '../../../src/assets/img/ilustracao2.svg';
+import iconImg from '../../../src/assets/img/icon.svg';
+
 export default function Ajuda() {
     return (
         <div className="container flex items-center justify-center min-h-screen px-40 py-30 max-sm:px-20 max-sm:py-6">
@@ -8,21 +11,21 @@ export default function Ajuda() {
                         aproveitar ao máximo sua plataforma de e-commerce.</p>
                     <div className="text-start py-4 max-sm:text-center">
                         <div className="flex flex-row items-center mb-6 max-sm:justify-center">
-                            <img src="src/assets/img/icon.svg" alt="icon verde" className="h-6" />
+                            <img src={iconImg} alt="icon verde" className="h-6" />
                             <p className="mx-2 max-sm:text-xs max-sm:w-full max-sm:text-start">
                                 Assistência especializada para resolver problemas técnicos
                             </p>
                         </div>
 
                         <div className="flex flex-row items-center mb-6 max-sm:justify-center">
-                            <img src="src/assets/img/icon.svg" alt="icon verde" className="h-6" />
+                            <img src={iconImg} alt="icon verde" className="h-6" />
                             <p className="mx-2 max-sm:text-xs max-sm:w-full max-sm:text-start">
                                 Explicações detalhadas sobre como utilizar cada recurso
                             </p>
                         </div>
 
                         <div className="flex flex-row items-center mb-16 max-sm:justify-center">
-                            <img src="src/assets/img/icon.svg" alt="icon verde" className="h-6" />
+                            <img src={iconImg} alt="icon verde" className="h-6" />
                             <p className="mx-2 max-sm:text-xs max-sm:w-full max-sm:text-start">
                                 Dicas e estratégias para otimizar sua loja on-line
                             </p>
@@ -34,7 +37,7 @@ export default function Ajuda() {
                     </div>
                 </div>
                 <div className="flex items-center justify-center">
-                    <img src="src/assets/img/ilustracao2.svg" alt="ilustração" className="h-96 max-sm:h-60" />
+                    <img src={ilustracao2} alt="ilustração" className="h-96 max-sm:h-60" />
                 </div>
             </div>
         </div>
