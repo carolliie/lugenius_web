@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React, { useEffect, useState } from 'react';
 import Funcionalidades from './Abas/Funcionalidades';
 import FaQ from './Abas/FAQ';
 import Avaliacoes from './Abas/Avaliacoes';
@@ -6,6 +6,51 @@ import Avaliacoes from './Abas/Avaliacoes';
 
 export default function Abas() {
     const [activeTab, setActiveTab] = useState('funcionalidade');
+
+    useEffect(() => {
+        if(activeTab === 'avaliacoes'){
+            setTimeout(() => {
+                document.getElementById(`styled-faq`).classList.add('hidden');
+                document.getElementById('styled-funcionalidade').classList.add('hidden');
+                document.getElementById('styled-avaliacoes').classList.remove('hidden');
+            }, 1000);
+
+            setTimeout(() => {
+                document.getElementById(`styled-avaliacoes`).style.opacity = 1;
+            }, 1200);
+
+            document.getElementById(`styled-faq`).style.opacity = 0;
+            document.getElementById(`styled-funcionalidade`).style.opacity = 0;
+        
+        }if(activeTab === 'funcionalidade'){
+            setTimeout(() => {
+                document.getElementById(`styled-faq`).classList.add('hidden');
+                document.getElementById('styled-avaliacoes').classList.add('hidden');
+                document.getElementById('styled-funcionalidade').classList.remove('hidden');
+            }, 1000);
+
+            setTimeout(() => {
+                document.getElementById(`styled-funcionalidade`).style.opacity = 1;
+            }, 1200);
+            
+            document.getElementById(`styled-faq`).style.opacity = 0;
+            document.getElementById(`styled-avaliacoes`).style.opacity = 0;
+        }
+        if(activeTab === 'faq'){
+            setTimeout(() => {
+                document.getElementById('styled-funcionalidade').classList.add('hidden');
+                document.getElementById('styled-avaliacoes').classList.add('hidden');
+                document.getElementById('styled-faq').classList.remove('hidden');
+            }, 1000);
+
+            setTimeout(() => {
+                document.getElementById(`styled-faq`).style.opacity = 1;
+            }, 1200);
+
+            document.getElementById(`styled-avaliacoes`).style.opacity = 0;
+            document.getElementById(`styled-funcionalidade`).style.opacity = 0;
+        }
+    }, [activeTab]);
 
     return (
         <div className="flex flex-col items-center justify-center text-center">
@@ -39,13 +84,13 @@ export default function Abas() {
                 </li>
             </ul>
             <div id="flex flex-row default-styled-tab-content">
-                <div className={`transition-opacity duration-500 ${activeTab === 'funcionalidade' ? 'opacity-100 visible' : 'opacity-0 invisible absolute'}`} id="styled-funcionalidade" role="tabpanel" aria-labelledby="funcionalidade-tab">
+                <div  id="styled-funcionalidade"className='transition-all duration-1000' role="tabpanel" aria-labelledby="funcionalidade-tab">
                     <Funcionalidades/>
                 </div>
-                <div className={`transition-opacity duration-500 ${activeTab === 'avaliacoes' ? 'opacity-100 visible' : 'opacity-0 invisible absolute'}`} id="styled-avaliacoes" role="tabpanel" aria-labelledby="avaliacoes-tab">
+                <div  id="styled-avaliacoes" className='transition-all duration-1000' role="tabpanel" aria-labelledby="avaliacoes-tab">
                     <Avaliacoes/>
                 </div>
-                <div className={`transition-opacity duration-500 ${activeTab === 'faq' ? 'opacity-100 visible' : 'opacity-0 invisible absolute'}`} id="styled-faq" role="tabpanel" aria-labelledby="faq-tab">
+                <div  id="styled-faq" className='transition-all duration-1000'  role="tabpanel" aria-labelledby="avaliacoes-tab">
                     <FaQ/>
                 </div>
             </div>

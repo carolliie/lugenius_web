@@ -120,6 +120,7 @@ class ApexChart extends Component {
             display: 'flex',
             flexDirection: 'column',
             justifyContent: 'center',
+            alignItems: 'center',
             fontFamily: 'Poppins, sans-serif',
           }}>
             {this.state.series[0].data.map((count, index) => (
