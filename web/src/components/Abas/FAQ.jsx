@@ -20,7 +20,7 @@ export default function FaQ() {
             <div className="flex flex-col space-y-8 w-full max-w-4xl p-14 justify-center max-sm:p-0 max-sm:space-y-4 max-sm:mb-12">
                 <div className="flex items-center space-x-4 max-sm:space-x-3">
                     <img src={perguntaImg} alt="Pergunta" className="h-12 max-sm:h-8" />
-                    <h2 className="font-bold text-lg max-sm:text-sm max-sm:text-start">How much will I need to pay after my annual license expires?</h2>
+                    <h2 className="font-bold text-lg max-sm:text-sm max-sm:text-start text-start">How much will I need to pay after my annual license expires?</h2>
                 </div>
                 <div className="flex items-start text-start space-x-4 max-sm:space-x-3">
                     <img src={respostaImg} alt="Resposta" className="h-12 max-sm:h-8" />
