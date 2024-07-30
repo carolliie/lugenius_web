@@ -16,9 +16,9 @@ export default function Banner() {
     );
 
     const images = [
-        { src: vendasImg, alt: 'vendas', className: 'h-48 max-[640px]:h-28 max-[640px]:absolute max-[640px]:top-20 max-[640px]:right-0 z-10 max-md:h-24' },
-        { src: panelImg, alt: 'painel', className: 'h-96 max-[640px]:hidden max-md:h-60' },
-        { src: lojaImg, alt: 'loja', className: 'h-64 max-[640px]:h-96 mx-auto max-md:h-52' }
+        { src: vendasImg, alt: 'vendas', className: 'lg:h-48 max-[640px]:h-28 max-[640px]:absolute max-[640px]:top-20 max-[640px]:right-0 z-10 md:h-24' },
+        { src: panelImg, alt: 'painel', className: 'lg:h-96 max-[640px]:hidden md:h-60' },
+        { src: lojaImg, alt: 'loja', className: 'lg:h-64 max-[640px]:h-96 mx-auto md:h-52' }
     ];
 
     const springs = useSprings(
@@ -39,7 +39,7 @@ export default function Banner() {
 
     return (
         <animated.div style={props}>
-            <div className="flex flex-col justify-center items-center p-12 py-20 max-[640px]:p-5 max-[640px]:py-14 max-md:p-8 max-md:py-0">
+            <div className="flex flex-col justify-center items-center lg:p-12 lg:py-20 max-[640px]:p-5 max-[640px]:py-14 md:p-8 md:py-20">
                 <div className='flex flex-col justify-center items-center'>
                     <img src={logoPretaImg} alt="Logo preta" className="h-12 w-auto max-[640px]:h-10 mx-auto" />
                     <div className="flex justify-center items-center">
@@ -59,7 +59,7 @@ export default function Banner() {
                             Pagamentos integrados
                         </p>
                     </div>
-                    <div className="container flex flex-col items-center text-center w-4/6 p-12 max-[640px]:text-sm max-[640px]:w-full max-[640px]:p-4 max-md:w-full max-md:p-6">
+                    <div className="container flex flex-col items-center text-center lg:w-4/6 lg:p-12 max-[640px]:text-sm max-[640px]:w-full max-[640px]:p-4 md:w-full md:p-6">
                         <p>Transforme sua ideia em uma <strong>loja virtual de sucesso</strong> com nossa solução completa de e-commerce. Nossa plataforma intuitiva permite que você crie e gerencie seu próprio site de forma rápida e fácil, mesmo sem <strong>experiência técnica</strong>.</p>
                         <p className="mt-6">Desfrute de todas as ferramentas necessárias para impulsionar seu negócio: suporte a cartões de crédito, PIX e boletos, cálculo automático de envio, gestão eficiente de estoque, relatórios detalhados de vendas e um aplicativo móvel para controle total na palma da mão. Tudo isso para que você possa focar no que realmente importa: <strong>crescer e prosperar sua loja</strong>. Contrate nossa solução e descubra como é vantajoso simplificar a gestão do seu e-commerce!</p>
                     </div>
@@ -82,7 +82,7 @@ export default function Banner() {
                         <a href="https://loja.lugenius.com/" className="rounded-full border border-black p-4 px-12 transition duration-300 ease-in-out hover:bg-black hover:text-white max-[640px]:text-sm max-[640px]:p-2 max-[640px]:px-16">Ver demo</a>
                     </div>
                 </div>
-                <div className="flex flex-row items-center p-12 space-x-8 relative max-[640px]:right-4 max-md:space-x-4">
+                <div className="flex flex-row items-center lg:p-12 lg:space-x-8 relative max-[640px]:right-4 md:space-x-4 md:p-12">
                     {springs.map((props, i) => (
                         <animated.img key={i} src={images[i].src} alt={images[i].alt} className={images[i].className} style={props} />
                     ))}
