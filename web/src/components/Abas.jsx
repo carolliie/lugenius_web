@@ -8,7 +8,7 @@ export default function Abas() {
     const [activeTab, setActiveTab] = useState('funcionalidade');
 
     useEffect(() => {
-        if(activeTab === 'avaliacoes'){
+        if (activeTab === 'avaliacoes') {
             setTimeout(() => {
                 document.getElementById(`styled-faq`).classList.add('hidden');
                 document.getElementById('styled-funcionalidade').classList.add('hidden');
@@ -21,8 +21,8 @@ export default function Abas() {
 
             document.getElementById(`styled-faq`).style.opacity = 0;
             document.getElementById(`styled-funcionalidade`).style.opacity = 0;
-        
-        }if(activeTab === 'funcionalidade'){
+
+        } if (activeTab === 'funcionalidade') {
             setTimeout(() => {
                 document.getElementById(`styled-faq`).classList.add('hidden');
                 document.getElementById('styled-avaliacoes').classList.add('hidden');
@@ -32,11 +32,11 @@ export default function Abas() {
             setTimeout(() => {
                 document.getElementById(`styled-funcionalidade`).style.opacity = 1;
             }, 1200);
-            
+
             document.getElementById(`styled-faq`).style.opacity = 0;
             document.getElementById(`styled-avaliacoes`).style.opacity = 0;
         }
-        if(activeTab === 'faq'){
+        if (activeTab === 'faq') {
             setTimeout(() => {
                 document.getElementById('styled-funcionalidade').classList.add('hidden');
                 document.getElementById('styled-avaliacoes').classList.add('hidden');
@@ -61,7 +61,7 @@ export default function Abas() {
                         onClick={() => setActiveTab('funcionalidade')}
                         aria-current={activeTab === 'funcionalidade' ? 'page' : undefined}
                     >
-                        Funcionalidade
+                        Funcionalidades
                     </button>
                 </li>
                 <li className="w-56">
@@ -84,14 +84,14 @@ export default function Abas() {
                 </li>
             </ul>
             <div id="flex flex-row default-styled-tab-content">
-                <div  id="styled-funcionalidade"className='transition-all duration-1000' role="tabpanel" aria-labelledby="funcionalidade-tab">
-                    <Funcionalidades/>
+                <div id="styled-funcionalidade" className='transition-all duration-1000' role="tabpanel" aria-labelledby="funcionalidade-tab">
+                    <Funcionalidades />
                 </div>
-                <div  id="styled-avaliacoes" className='transition-all duration-1000' role="tabpanel" aria-labelledby="avaliacoes-tab">
-                    <Avaliacoes/>
+                <div id="styled-avaliacoes" className='transition-all duration-1000' role="tabpanel" aria-labelledby="avaliacoes-tab">
+                    <Avaliacoes />
                 </div>
-                <div  id="styled-faq" className='transition-all duration-1000'  role="tabpanel" aria-labelledby="avaliacoes-tab">
-                    <FaQ/>
+                <div id="styled-faq" className='transition-all duration-1000' role="tabpanel" aria-labelledby="avaliacoes-tab">
+                    <FaQ />
                 </div>
             </div>
         </div>

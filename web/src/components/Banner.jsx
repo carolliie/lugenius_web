@@ -16,7 +16,7 @@ export default function Banner() {
     );
 
     const images = [
-        { src: vendasImg, alt: 'vendas', className: 'lg:h-48 max-[640px]:h-28 max-[640px]:absolute max-[640px]:top-20 max-[640px]:right-0 z-10 md:h-24' },
+        { src: vendasImg, alt: 'vendas', className: 'lg:h-48 max-[640px]:h-28 max-[640px]:absolute max-[640px]:top-16 max-[640px]:right-0 max-sm:-mx-8 z-10 md:h-24' },
         { src: panelImg, alt: 'painel', className: 'lg:h-96 max-[640px]:hidden md:h-60' },
         { src: lojaImg, alt: 'loja', className: 'lg:h-64 max-[640px]:h-96 mx-auto md:h-52' }
     ];
@@ -78,11 +78,12 @@ export default function Banner() {
                         </p>
                     </div>
                     <div className="flex flex-row space-x-4 max-[640px]:flex-col max-[640px]:items-center max-[640px]:space-x-0 max-[640px]:space-y-4">
-                        <a href="https://lugenius.com/produto/ecommerce-standard/" className="rounded-full bg-[#12D03C] p-4 px-12 transition duration-300 ease-in-out hover:bg-[#10B832] max-[640px]:text-sm max-[640px]:p-2 max-[640px]:px-16">Começar já</a>
+                        <a href="https://lugenius.com/produto/ecommerce-standard/" class="rounded-full bg-[#12D03C] p-4 px-12 transition-transform duration-300 ease-in-out transform hover:scale-105 max-[640px]:text-sm max-[640px]:p-2 max-[640px]:px-16">Começar já</a>
+
                         <a href="https://loja.lugenius.com/" className="rounded-full border border-black p-4 px-12 transition duration-300 ease-in-out hover:bg-black hover:text-white max-[640px]:text-sm max-[640px]:p-2 max-[640px]:px-16">Ver demo</a>
                     </div>
                 </div>
-                <div className="flex flex-row items-center lg:p-12 lg:space-x-8 relative max-[640px]:right-4 md:space-x-4 md:p-12">
+                <div className="flex flex-row items-center lg:p-12 lg:space-x-8 relative max-[640px]:right-4 max-sm:mt-20 max-sm:mb-10 md:space-x-4 md:p-12">
                     {springs.map((props, i) => (
                         <animated.img key={i} src={images[i].src} alt={images[i].alt} className={images[i].className} style={props} />
                     ))}

@@ -12,7 +12,7 @@ import icone7 from '../../../src/assets/img/icone7.svg';
 export default function Funcionalidades() {
     return (
         <div className="flex flex-col items-center justify-between space-y-8 mt-12">
-            <div className="flex flex-col lg:flex-row items-center justify-center w-3/5 mb-20 space-y-8 lg:space-y-0 lg:space-x-36 max-[640px]:px-6 max-sm:mb-4">
+            <div className="flex flex-col lg:flex-row items-center justify-center w-3/5 lg:py-10 mx-auto lg:w-3/4 mb-10 space-y-8 lg:space-x-36 max-[640px]:px-0 max-sm:mb-4 max-sm:w-4/5">
                 <img src={icone1} alt="laptop" className="h-80 max-sm:mx-auto max-sm:h-56 max-sm:mt-8" />
                 <div className="w-full lg:w-1/2 text-center lg:text-left max-[640px]:text-start">
                     <h2 className="text-3xl font-bold mb-4 max-[640px]:text-lg">Criação fácil, intuitiva e sem complicações</h2>
@@ -23,19 +23,19 @@ export default function Funcionalidades() {
                 </div>
             </div>
 
-            <div className="flex flex-col lg:flex-row items-center justify-center w-3/5 mb-20 space-y-8 lg:space-y-0 lg:space-x-36 max-[640px]:px-6 max-sm:mb-4">
+            <div className="flex flex-col lg:flex-row items-center justify-center w-3/5 lg:py-14 mx-auto lg:w-3/4 mb-20 space-y-8 lg:space-y-0 lg:space-x-36 max-[640px]:px-0 max-sm:mb-4 max-sm:w-4/5">
                 <div className="w-full lg:w-1/2 text-center lg:text-left lg:order-first max-[640px]:text-start">
-                    <img src={icone2} alt="laptop" className="max-lg:h-80 max-sm:mx-auto max-sm:h-56 lg:hidden max-sm:mt-8 md:mx-auto md:mb-6" />
+                    <img src={icone2} alt="laptop" className="h-80 max-sm:mx-auto max-sm:h-56 lg:hidden max-sm:mt-6 max-sm:mb-8 md:mx-auto md:mb-6" />
                     <h2 className="text-3xl font-bold mb-4 max-[640px]:text-lg">Diversas opções para receber pagamentos</h2>
                     <p className="text-black max-[640px]:text-sm">
                         Oferecemos suporte a uma ampla gama de métodos de pagamento, garantindo que você possa atender a todos os seus clientes com facilidade. <strong>Aceite cartões de crédito, PIX e boletos</strong>, proporcionando conveniência e flexibilidade na hora de fechar a compra.
                         Essa variedade de opções aumenta suas chances de conversão, pois atende às preferências de pagamento dos seus clientes. Com a integração simples e rápida desses métodos, <strong>você oferece uma experiência de compra segura e eficiente</strong>, essencial para conquistar e fidelizar sua clientela. Simplifique o processo de pagamento e aumente suas vendas com nossa solução abrangente de e-commerce.
                     </p>
                 </div>
-                <img src={icone2} alt="laptop" className="lg:h-80 max-sm:mx-auto max-sm:h-56 max-[640px]:hidden md:hidden lg:block" />
+                <img src={icone2} alt="laptop" className="h-80 max-sm:mx-auto max-sm:h-56 max-[640px]:hidden md:hidden lg:block" />
             </div>
 
-            <div className="flex flex-col lg:flex-row items-center justify-center w-3/5 mb-20 space-y-8 lg:space-y-0 lg:space-x-36 max-[640px]:px-6 max-sm:mb-4">
+            <div className="flex flex-col lg:flex-row items-center justify-center w-3/5 lg:py-14 mx-auto lg:w-3/4 mb-20 space-y-8 lg:space-y-0 lg:space-x-36 max-[640px]:px-0 max-sm:mb-4 max-sm:w-4/5">
                 <img src={icone3} alt="laptop" className="h-80 max-sm:mx-auto max-sm:h-56 max-sm:mt-8" />
                 <div className="w-full lg:w-1/2 text-center lg:text-left max-[640px]:text-start">
                     <h2 className="text-3xl font-bold mb-4 max-[640px]:text-lg">Cálculo de envio automático</h2>
@@ -46,7 +46,7 @@ export default function Funcionalidades() {
                 </div>
             </div>
 
-            <div className="flex flex-col lg:flex-row items-center justify-center w-3/5 mb-20 space-y-8 lg:space-y-0 lg:space-x-36 max-[640px]:px-6 max-sm:mb-4">
+            <div className="flex flex-col lg:flex-row items-center justify-center w-3/5 lg:py-14 mx-auto lg:w-3/4 mb-20 space-y-8 lg:space-y-0 lg:space-x-36 max-[640px]:px-0 max-sm:mb-4 max-sm:w-4/5">
                 <div className="w-full lg:w-1/2 text-center lg:text-left lg:order-first max-[640px]:text-start">
                     <img src={icone4} alt="laptop" className="h-80 max-sm:mx-auto max-sm:h-56 lg:hidden max-sm:mt-8 max-sm:mb-6 md:mx-auto md:mb-6" />
                     <h2 className="text-3xl font-bold mb-4 max-[640px]:text-lg">Relatório de vendas detalhados</h2>
@@ -58,7 +58,7 @@ export default function Funcionalidades() {
                 <img src={icone4} alt="laptop" className="h-80 max-sm:mx-auto max-sm:h-56 max-[640px]:hidden md:hidden lg:block" />
             </div>
 
-            <div className="flex flex-col lg:flex-row items-center justify-center w-3/5 mb-20 space-y-8 lg:space-y-0 lg:space-x-36 max-[640px]:px-6 max-sm:mb-4">
+            <div className="flex flex-col lg:flex-row items-center justify-center w-3/5 lg:py-14 mx-auto lg:w-3/4 mb-20 space-y-8 lg:space-y-0 lg:space-x-36 max-[640px]:px-0 max-sm:mb-4 max-sm:w-4/5">
                 <img src={icone5} alt="laptop" className="h-80 max-sm:mx-auto max-sm:h-56 max-sm:mt-8 md:mt-12" />
                 <div className="w-full lg:w-1/2 text-center lg:text-left max-[640px]:text-start">
                     <h2 className="text-3xl font-bold mb-4 max-[640px]:text-lg">Promoções e cupons de desconto</h2>
@@ -69,7 +69,7 @@ export default function Funcionalidades() {
                 </div>
             </div>
 
-            <div className="flex flex-col lg:flex-row items-center justify-center w-3/5 mb-20 space-y-8 lg:space-y-0 lg:space-x-36 max-[640px]:px-6 max-sm:mb-4">
+            <div className="flex flex-col lg:flex-row items-center justify-center w-3/5 lg:py-14 mx-auto lg:w-3/4 mb-20 space-y-8 lg:space-y-0 lg:space-x-36 max-[640px]:px-0 max-sm:mb-4 max-sm:w-4/5">
                 <div className="w-full lg:w-1/2 text-center lg:text-left lg:order-first max-[640px]:text-start">
                     <img src={icone6} alt="laptop" className="h-80 max-sm:mx-auto max-sm:h-56 lg:hidden max-sm:mt-8 max-sm:mb-6 md:mx-auto md:mb-6 md:mt-6" />
                     <h2 className="text-3xl font-bold mb-4 max-[640px]:text-lg">Gestão completa do seu E-commerce</h2>
@@ -82,8 +82,8 @@ export default function Funcionalidades() {
                 <img src={icone6} alt="laptop" className="h-80 max-sm:mx-auto max-sm:h-56 max-[640px]:hidden md:hidden lg:block" />
             </div>
 
-            <div className="flex flex-col lg:flex-row items-center justify-center w-3/5 space-y-8 lg:space-y-0 lg:space-x-36 max-[640px]:px-6 max-sm:mb-4">
-                <img src={icone7} alt="laptop" className="h-80 max-sm:mx-auto max-sm:h-56 max-sm:mt-8 max-sm:mb-4 md:mt-6" />
+            <div className="flex flex-col lg:flex-row items-center justify-center w-3/5 lg:py-14 mx-auto lg:w-3/4 space-y-8 lg:space-y-0 lg:space-x-36 max-[640px]:px-0 max-sm:mb-4 max-sm:w-4/5">
+                <img src={icone7} alt="laptop" className="h-80 max-sm:mx-auto max-sm:h-56 max-sm:mt-8 max-sm:mb-4 max-sm:w-4/5 md:mt-6" />
                 <div className="w-full lg:w-1/2 text-center lg:text-left max-[640px]:text-start">
                     <h2 className="text-3xl font-bold mb-4 max-[640px]:text-lg">Aplicativo no celular para gerenciamento</h2>
                     <p className="text-black max-[640px]:text-sm">
@@ -95,7 +95,7 @@ export default function Funcionalidades() {
             </div>
 
             <div className='w-full'>
-                <div className="flex flex-col items-center justify-center min-h-screen w-full lg:p-20 bg-[#E7FAEA] mt-20 md:p-10">
+                <div className="flex flex-col items-center justify-center min-h-screen w-full max-sm:py-14 lg:p-20 bg-[#E7FAEA] mt-20 md:p-10">
                     <h1 className="text-5xl font-bold mb-5 max-[640px]:text-3xl">Vídeos e Tutoriais</h1>
                     <p className="text-base text-center lg:w-1/2 max-[640px]:text-xs max-[640px]:w-full max-[640px]:px-16 md:w-3/4">
                         Deseja entender melhor? Confira nossos vídeos sobre a solução e tutoriais que mostram como
@@ -103,7 +103,7 @@ export default function Funcionalidades() {
                         solução. Além disso, respondemos às dúvidas mais frequentes para garantir que você tenha todas
                         as informações necessárias.
                     </p>
-                    <div className="grid grid-cols-3 lg:gap-16 lg:mt-0 lg:p-20 max-[640px]:flex max-[640px]:flex-col md:p-0 md:gap-8 md:mt-12">
+                    <div className="grid grid-cols-3 lg:gap-16 lg:mt-0 lg:p-20 max-[640px]:flex max-[640px]:flex-col max-sm:gap-8 max-sm:py-14 max-sm:p-8 md:p-0 md:gap-8 md:mt-12">
                         <YoutubeEmbed embedId="RY0tUGKtr_s" />
                         <YoutubeEmbed embedId="RY0tUGKtr_s" />
                         <YoutubeEmbed embedId="RY0tUGKtr_s" />

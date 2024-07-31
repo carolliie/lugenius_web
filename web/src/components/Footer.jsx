@@ -10,7 +10,7 @@ export default function Footer() {
         const [index, setIndex] = useState(0);
         const [isFooterVisible, setIsFooterVisible] = useState(false);
         const footerRef = useRef();
-    
+
         useEffect(() => {
             const observer = new IntersectionObserver(
                 (entries) => {
@@ -23,14 +23,14 @@ export default function Footer() {
                 },
                 { threshold: 0.1 }
             );
-    
+
             if (footerRef.current) {
                 observer.observe(footerRef.current);
             }
-    
+
             return () => observer.disconnect();
         }, []);
-    
+
         useEffect(() => {
             if (isFooterVisible && index < text.length) {
                 const timeout = setTimeout(() => {
@@ -40,7 +40,7 @@ export default function Footer() {
                 return () => clearTimeout(timeout);
             }
         }, [index, text, speed, isFooterVisible]);
-    
+
         return (
             <div>
                 <span>{displayedText}</span>
@@ -59,7 +59,7 @@ export default function Footer() {
                 <p className="lg:w-1/2 text-center max-sm:w-full max-sm:text-sm md:w-full">Você já conhece todas as vantagens da nossa plataforma de e-commerce. Agora, só falta dar o primeiro passo para transformar sua ideia em um negócio de sucesso. Crie sua loja online de forma rápida e eficiente e comece a vender hoje mesmo.</p>
 
                 <div className="flex flex-row space-x-4 mt-10 max-sm:flex-col max-sm:items-center max-sm:space-x-0 max-sm:space-y-4">
-                    <a href="https://lugenius.com/produto/ecommerce-standard/" className="rounded-full bg-[#12D03C] p-4 px-12 transition duration-300 ease-in-out hover:bg-[#10B832] max-[640px]:text-sm max-[640px]:p-2 max-[640px]:px-16">Começar já</a>
+                    <a href="https://lugenius.com/produto/ecommerce-standard/" class="rounded-full bg-[#12D03C] p-4 px-12 transition-transform duration-300 ease-in-out transform hover:scale-105 max-[640px]:text-sm max-[640px]:p-2 max-[640px]:px-16">Começar já</a>
                     <a href="https://loja.lugenius.com/" className="rounded-full border border-black p-4 px-12 transition duration-300 ease-in-out hover:bg-black hover:text-white max-[640px]:text-sm max-[640px]:p-2 max-[640px]:px-16">Ver demo</a>
                 </div>
             </div>
