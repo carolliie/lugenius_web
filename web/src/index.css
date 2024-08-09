@@ -7,3 +7,13 @@
 body {
   font-family: "Poppins", serif;
 }
+
+
+.custom-dots li.slick-active button::before {
+  color: #12D03C; /* Muda a cor do dot ativo */
+}
+
+.custom-dots li button::before {
+  font-size: 10px; /* Opcional: ajuste do tamanho do dot */
+  color: #d3d3d3;  /* Cor padrão dos dots */
+}
